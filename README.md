@@ -28,7 +28,7 @@ It parses key fields (protocol version, server version, connection ID, etc.) dir
     ```bash
     docker run --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root --name mysql mysql:8
     ```
-    Wait ~10-20 seconds until MySQL is ready (docker logs mysql shows "ready for connections")
+    Wait ~10-20 seconds until MySQL is ready (```docker logs mysql``` shows "ready for connections")
 
 ### 2. Run the scanner against it
 - 

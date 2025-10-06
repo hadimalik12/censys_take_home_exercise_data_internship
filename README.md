@@ -1,4 +1,4 @@
-# MySQL Scanner (Censys Internship Take-Home Exercise)
+# MySQL Scanner (Censys Data Internship Take-Home Exercise)
 
 This Go program detects whether **MySQL** is running on a specified host and port by performing a **single handshake read** over TCP — no authentication or login required.  
 It parses key fields (protocol version, server version, connection ID, etc.) directly from the MySQL wire protocol.
@@ -57,7 +57,7 @@ It parses key fields (protocol version, server version, connection ID, etc.) dir
     ```bash
     docker stop mysql
     ```
-    (The --rm flag automatically removes it afterward.)
+    (The ```--rm``` flag automatically removes it afterward.)
 
 ## Author
 **Hadi Malik**  
